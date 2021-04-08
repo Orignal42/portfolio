@@ -1,4 +1,121 @@
 body{
     background-color: yellowgreen;
-    
+  
 }
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+
+    
+
+}
+#moi{
+    margin-top: 2rem;
+    text-align: center;
+}
+#portfolio{
+    height: auto;
+    display: inline;
+    word-break: break-all;
+    overflow-y: auto;
+    border:1px solid white;
+
+}
+
+.card{
+    border: blue 1px solid;
+    border-radius: 20%;
+    align-items: center;
+    padding: 0.1rem;
+    margin-bottom: 1rem;
+    background-color: black;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+    
+    }
+    .card:hover{
+        z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.3);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.3);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.3);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+        
+        
+        }
+
+#competences{
+    margin-top: 5em;
+    border:1px solid white;
+}
+#portfolio img{
+    width: 10rem;
+    height: 10rem;
+}
+h1{
+    text-align: center;
+}
+h2{
+    color:white
+}
+p{
+    color: white;
+}
+
+
+#competences img{
+    margin-top: 5%;
+    width: 30%;
+    height: auto;
+}
+#contact{
+    text-align: center; 
+    margin-top: 5em; 
+    border:1px solid white;
+
+}
+
+button{
+    align-content: center;
+}
+
+
+.progress {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+  }
+  
+  .progressBar {
+    width: 10rem;
+    height: 2.2rem;
+    background: #fff;
+    border: 0.3rem solid #ddd;
+    padding: 0.3rem;
+  }
+  
+  .progressValue {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    text-align: center;
+  }
