@@ -1,17 +1,23 @@
-body{
-    background-color: yellowgreen;
-  
+.navbar{
+width: 100%;
+
+
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20rem;
 }
 
 
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: yellowgreen;
+#header{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
     position:fixed;
     z-index: 1;
     width: 100%;
+
 
     
 
@@ -20,12 +26,19 @@ body{
     margin-top: 2rem;
     text-align: center;
 }
+.photo img{
+    border: darkgrey 1rem solid;
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+}
 #portfolio{
     height: auto;
     display: inline;
     word-break: break-all;
     overflow-y: auto;
     border:1px solid white;
+    background-color: green;
 
 }
 
@@ -62,8 +75,10 @@ body{
         }
 
 #competences{
+    padding: 5%;
     margin-top: 5em;
     border:1px solid white;
+    background-color: darkgrey;
 }
 #portfolio img{
     width: 10rem;
@@ -75,7 +90,7 @@ h1{
 h2{
     color:white
 }
-p{
+.card p{
     color: white;
 }
 
@@ -89,6 +104,7 @@ p{
     text-align: center; 
     margin-top: 5em; 
     border:1px solid white;
+
 
 }
 
