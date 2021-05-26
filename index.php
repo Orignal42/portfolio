@@ -48,7 +48,7 @@
         </div>
       </nav>
     </section> </br>
-    <div class="container">
+
     <section id="moi">
       <div class="photo">
         <img src="./images/1612435879747.jfif">
@@ -64,7 +64,43 @@
 
       <h1>Mon CV</h1>
       <p>J'ai rien foutu de ma vie et je vous emmerde!</p>
-
+      <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="card-title">CV</h6>
+                    <div id="content">
+                        <ul class="timeline">
+                          
+                            <li class="event" data-date="2006 - 2010">
+                                
+                                <p>Obtention d'un DUT génie industriel et maintenance et différentes missions intérims en tant que mécanicien monteur</p>
+                            </li>
+                            <li class="event" data-date="2009- 2012">
+                               
+                                <p>CDI à Europe géothermie en tant que technicien industriel </p>
+                            </li>
+                            <li class="event" data-date="2013-2015">
+                                
+                                <p>CDI pour la société Rlegrand en tant que technicien en signalisation ferrovaire.</p>
+                                <li class="event" data-date="2015-2021">
+                                
+                                <p>Différentes missions en tant que technicien SAV et électricien industriel et batiment</p>
+                            </li>
+                            </li>
+                            <li class="event" data-date="2021">
+                                
+                                <p>Reconversion en tant que DevWeb junior dans le centre de formation simplon Roanne.</p>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     </section>
 
     <section id="portfolio">
@@ -135,7 +171,7 @@
           </div>
         </div>
       </div>
-  </div>
+
   </section>
   </div>
   <section id="competences">
@@ -186,26 +222,42 @@
   </section>
 
   <section id="contact">
-    <div class="container">
+    <div class="telephone">
+    <h1>Contact</h1>
       <div class="logo">
-
+  
         <p>
         <h1>&#x1F4E7;</h1>romain.barriquand@laposte.net</p>
 
         <p>
         <h1>&#x260E;</h1> 06.89.88.85.71</p>
       </div>
-      <body>
-        <h1>Contact</h1>
-        <form method="post">
-            <label>Nom</label>
-            <input type="text" name="nom" required>
-            <label>Email</label>
-            <input type="email" name="email" required>
-            <label>Message</label>
-            <textarea name="message" required></textarea>
-            <input type="submit">
-        </form>
+   
+    <div class="formulaire">
+    <form method="post">
+        <label>Email</label>
+        <input type="email" name="email" required><br>
+        <label>Message</label>
+        <textarea name="message" required></textarea><br>
+        <input type="submit">
+    </form>
+</div>
+
+
+    <?php
+    if (isset($_POST['message'])) {
+        $position_arobase = strpos($_POST['email'], '@');
+        if ($position_arobase === false)
+            echo '<p>Votre email doit comporter un arobase.</p>';
+        else {
+            $retour = mail('romain.barriquand@laposte.net', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
+            if($retour)
+                echo '<p>Votre message a été envoyé.</p>';
+            else
+                echo '<p>Erreur.</p>';
+        }
+    }
+    ?>
 
 
 
