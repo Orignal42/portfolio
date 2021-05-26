@@ -6,7 +6,7 @@ function submitForm(){
  
     $.ajax({
         type: "POST",
-        url: "/portofolioi/php/formulaire.php",
+        url: "/portofolio/php/formulaire.php",
         data: "name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
