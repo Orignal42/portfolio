@@ -3,23 +3,31 @@
     top: 0;
     z-index: 1;
     width: 100%;
-
-
+background-color: grey !important;
 
 }
-
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #moi{
+
     margin-top: 2rem;
     text-align: center;
 }
 .photo img{
     border: darkgrey 1rem solid;
     border-radius: 50%;
-    width: 40%;
+    width: 20%;
     height: auto;
+    margin-top: 5%;
 }
+.navbar{
+    background-color:darkgray !important;
 
+}
 
 
 
@@ -28,21 +36,23 @@
 * { box-sizing: border-box; }
 
 body { 
-  background-color: grey;
+    background-image: url('http://www.gifsanimes.fr/fonds-ecran/fonds-ecran/gris/gris-gifs-animes-2972331.jpg');
     font-family: sans-serif;
 
 
 }
 
-.carousel {
-  background: #EEE;
+#portfolio{
+margin: 5%;
+
 }
+
 
 .carousel-cell {
   width: 40%;
   height: auto;
   margin-right: 1rem;
-  background: #8C8;
+
   border-radius: 5px;
   counter-increment: carousel-cell;
 }
@@ -54,11 +64,6 @@ justify-content: center;
    line-height: 200px;
   font-size: 80px;
 }
-
-
-     
-
-
 
 h1{
     text-align: center;
@@ -78,79 +83,51 @@ h2{
 
 }
 
-.card img{
-    width: auto;
-    height: 10rem;
-   
+
+#competences{
+margin-top: 2%;
+padding: 5%;
+margin-top: 2rem;
+border:1px solid white;
+background-color: darkgrey;
+width: 100%;
+
 }
-
-
 
 #competences img{
     margin-top: 5%;
     width: 30%;
     height: auto;
+    margin-bottom: 5%;
 }
-#contact{
-    text-align: center; 
- 
-    border:1px solid white;
-    height: 20rem;
 
-}
-#contact img{
-  width:10rem;
-  height:10rem;
-  
-    }
-#contact form{
-  display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
-  text-align: center;
-  align-items: center;
-}
-}  
 
 button{
     align-content: center;
 }
 
 
-.progress {
-    position: relative;
-    display: inline-block;
-    overflow: visible;
-  }
-  
-  .progressBar {
-    width: 15rem;
-    height: 2.2rem;
-    background: #fff;
-    border: 0.3rem solid #ddd;
-    padding: 0.3rem;
-  }
-  
-  .progressValue {
-    position: absolute;
-    top: 0.5rem;
-    left: 0;
-    right: 0;
-    bottom: 5px;
-    text-align: center;
 
-  }
-  #competences{
-    padding: 5%;
-    margin-top: 2rem;
-    border:1px solid white;
-    background-color: darkgrey;
-    width: 100%;
-    
-    
-
- 
+.card-body{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
+.card-body img{
+  width: 30%;
+  height: 5rem;
+}
+#competences  img{
+    width: 20vh; 
+    height: 20vh;
+
+
+}
+#competences  .col-2{
+    margin: 1rem;
+}
+
 
 #competences  .row{ 
 display: flex;
@@ -160,17 +137,24 @@ align-items: center;
         
 }
 
+.container{
+    background-color: grey;
+}
+nav img{
+    width: 5%;
+    height: 5%;
+}
+#contact{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
  
 
-  .logo{
 
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  body{margin-top:20px;}
   .timeline {
       border-left: 3px solid #727cf5;
       border-bottom-right-radius: 4px;
@@ -284,5 +268,151 @@ align-items: center;
   .rtl .timeline .event::after {
       left: 0;
       right: -55.8px;
+  
+  
   }
+
+
+
+  .html {
+    width: 0;
+    animation: html 1.5s  ease-in-out forwards;
+    .title {
+     
+        opacity: 0;
+        animation: show 0.35s forwards ease-in-out 0.5s;
+      }
+  
+  } 
+
+.js{
+    background-color: yellow !important;
+    color: black;
+   
+    width: 0;
+   
+    animation: js  1.5s  ease-in-out forwards;
+    .title {       
+        opacity: 0;
+        animation: show 0.35s forwards ease-in-out 0.5s;
+      }
+  
+  }
+
+
+  .css{
+    background-color: blue !important;
+   
+    width: 0;
+   
+    animation: css  1.5s  ease-in-out forwards;
+    .title {       
+        opacity: 0;
+        animation: show 0.35s forwards ease-in-out 0.5s;
+      }
+  
+  }
+  .php{
+    background-color: purple !important;
+   
+    width: 0;
+   
+    animation: php  1.5s  ease-in-out forwards;
+    .title {       
+        opacity: 0;
+        animation: show 0.35s forwards ease-in-out 0.5s;
+      }
+  
+  }
+  .symfony{
+    background-color: black !important;
+   
+    width: 0;
+   
+    animation: symfony  1.5s  ease-in-out forwards;
+    .title {       
+        opacity: 0;
+        animation: show 0.35s forwards ease-in-out 0.5s;
+      }
+  
+  }
+  .imgphp span {
+    visibility: hidden;
+}
+ 
+.imgphp :hover + span {
+    visibility: visible;
+}
+
+
+.imgcss span {
+  visibility: hidden;
+}
+
+.imgcss :hover + span {
+  visibility: visible;
+}
+
+  @keyframes html {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  } 
+
+
+  @keyframes css{
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  } 
+
+
+  
+  @keyframes js{
+    from {
+      width: 0;
+    }
+    to {
+      width: 60%;
+    }
+  }
+  
+  @keyframes php{
+    from {
+      width: 0;
+    }
+    to {
+      width: 50%;
+    }
+  }
+  @keyframes symfony{
+    from {
+      width: 0;
+    }
+    to {
+      width: 30%;
+    }
+  }
+  
+
+
+ 
+    
+
+  
+
+
+
+    
+    
+
+  
+
+
   
