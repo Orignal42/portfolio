@@ -28,11 +28,12 @@
               <a class="nav-link " aria-current="page" href="#">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#cv">CV</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+       
             <li class="nav-item">
               <a class="nav-link" href="#competences">Compétences</a>
             </li>
@@ -53,7 +54,7 @@
     </br>
 
     <h1>Romain Barriquand</h1>
-    <h4>Développeur web/ webmobil junior</h4>
+    <h4>Développeur web/ web mobile junior</h4>
     <p> Romain Barriquand, Web dev/webmobil junior en formation, j'ai commencé dans la maintenance puis j'ai decidé de me reconvertir au bout
       de 15 ans en webdev.</p>
   </section>
@@ -157,7 +158,7 @@
       </div>
 
       <div class="carousel-cell">
-     <div class="card col-sd-12 col-md-8 col-xl-12">
+        <div class="card col-sd-12 col-md-8 col-xl-12">
           <h5 class="card-title">Combat</h5>
           <div class="card-body">
             <img src="images/mini jeu combat.png">
@@ -218,7 +219,7 @@
       </div>
 
       <div class=" col-sm-12 col-md-8 col-xl-2">
-        <img src="/portfolio/images/new-php-logo.svg">
+        <img src="/portfolio/images/php8.png">
 
         <div class="progress">
           <div class=" progress-bar progress-bar-success progress-bar-striped active php" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
@@ -242,29 +243,37 @@
   <h1>Contact</h1>
   <section id="contact">
 
+  
+  <div class="row">
+          <div class="col-sm-12 col-md-8 col-xl-4 mail ">        
+            <p><h1>&#x1F4E7;</h1>romain.barriquand@laposte.net</p>
+          </div>
+          <div class="col-sm-12 col-md-8 col-xl-4 mail ">
+              <p><h1>&#x260E;</h1> 06.89.88.85.71</p>
+          </div>
+          <div class="col-sm-12 col-md-8 col-xl-4 mail ">
+            <img src="/portfolio/images/github.png" width="10%" height="auto">
+            <a href="https://github.com/">
+            <p>lien vers mon github</p></a>
+          </div>
+   </div>
 
-    <div class="col-sm-12 col-md-8 col-xl-6">
-      <p>
-      <h1>&#x1F4E7;</h1>romain.barriquand@laposte.net</p>
-
-      <p>
-      <h1>&#x260E;</h1> 06.89.88.85.71</p>
-    </div>
-
-
-    <div class="col-sm-12 col-md-8 col-xl-6">
+  
+     
       <form method="post" action="">
-
-
+      <div id="email">
+      <div class="col-sm-12 col-md-8 col-xl-4 mail ">
         <label>Email</label>
         <input type="email" name="email" required><br>
-
+      </div>
+      <div class="col-sm-12 col-md-8 col-xl-4 mail ">
         <label>Message</label>
         <textarea name="message" required></textarea><br>
         <input type="submit">
-
+      </div>
+      </div>
       </form>
-    </div>
+
 
 
     <?php

@@ -3,7 +3,7 @@
     top: 0;
     z-index: 1;
     width: 100%;
-background-color: grey !important;
+   background-color: grey !important;
 
 }
 .container-fluid{
@@ -144,12 +144,19 @@ nav img{
     width: 5%;
     height: 5%;
 }
+
+
 #contact{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.email{
+  display: flex;
+  flex-flow: row;
+
 }
 
  
