@@ -107,27 +107,11 @@
 
     <div class="carousel" data-flickity='{ "wrapAround": true }'>
 
-
-
-
-      <div class="carousel-cell">
-        <div class="card col-md-12 col-xl-12">
-          <h5 class="card-title">Cagnot'potes</h5>
-          <div class="card-body">
-            <img src="images/cagnot.png">
-            <div class="card-content">
-              <p>Projet pour apprendre symfony</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="carousel-cell">
-        <div class="card col-md-12 col-xl-12">
+     <div class="carousel-cell">
+        <div class="card col-md-12 col-xl-12 instageek">
           <h5 class="card-title">Instageek</h5>
           <div class="card-body">
-            <img src="images/instageeks.png">
+            
             <div class="card-content">
               <p>Petit challenge des 2 mois</p>
             </div>
@@ -172,7 +156,7 @@
         <img src="/portfolio/images/HTML5_Logo_512.png">
         <div class="progress">
           <div class="progress-bar progress-bar-success progress-bar-striped active html" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-            <span class="sr-only">100% </span>
+            <span class="sr-only">80% </span>
           </div>
         </div>
       </div>
@@ -204,10 +188,9 @@
       </div>
 
       <div class=" col-sm-12 col-md-8 col-xl-2">
-        <div class=hidimg>
+        
           <img src="/portfolio/images/php8.png">
-          <span><img src="/portfolio/images/symfony.svg"></span>
-          </div>
+        
           <div class="progress">
             <div class=" progress-bar progress-bar-success progress-bar-striped active php" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
               <span class="sr-only">50%</span>
@@ -216,6 +199,28 @@
        
       </div>
 
+      <div class=" col-sm-12 col-md-8 col-xl-2">
+        
+          <img src="/portfolio/images\mysql_PNG9.png.crdownload">
+          
+          <div class="progress">
+            <div class=" progress-bar progress-bar-success progress-bar-striped active mysql" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+              <span class="sr-only">50%</span>
+            </div>
+          </div>
+       
+      </div>
+      <div class=" col-sm-12 col-md-8 col-xl-2">
+        
+          <img src="/portfolio/images/symfony.svg">
+       
+          <div class="progress">
+            <div class=" progress-bar progress-bar-success progress-bar-striped active symfony" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+              <span class="sr-only">50%</span>
+            </div>
+          </div>
+       
+      </div>
 
    
     </div>
@@ -237,7 +242,7 @@
       <div class="col-sm-12 col-md-8 col-xl-4 mail ">
         <img src="/portfolio/images/github.png" width="10%" height="auto">
         <a href="https://github.com/">
-          <p>lien vers mon github</p>
+        <p>  lien vers mon github</p>
         </a>
       </div>
     </div>

@@ -73,7 +73,7 @@ h2{
     text-align: center;
 
 }
-.card{
+#cv .card{
 
     background-color: black;
     color: white;
@@ -83,6 +83,14 @@ h2{
 
 }
 
+#portfolio .card{
+display: flex;
+text-align: center;
+
+}
+#portfolio .card .instageek{
+  background-image: url("/portfolio/images/instageeks.png");
+}
 
 #competences{
 margin-top: 2%;
@@ -96,8 +104,8 @@ width: 100%;
 
 #competences img{
     margin-top: 5%;
-    width: 30%;
-    height: auto;
+    width: 20vh; 
+    height: 20vh;
     margin-bottom: 5%;
 }
 
@@ -118,24 +126,13 @@ button{
   width: 30%;
   height: 5rem;
 }
-#competences  img{
-    width: 20vh; 
-    height: 20vh;
 
-
-}
 #competences  .col-2{
     margin: 1rem;
 }
 
 
-#competences  .row{ 
-display: flex;
-flex-flow: row;
-justify-content: center;
 
-        
-}
 
 .container{
     background-color: grey;
@@ -284,8 +281,8 @@ nav img{
   .html {
     background-color:orange !important;
     width: 0;
-    // animation: html 1.5s  ease-in-out forwards;
-    z-index: 1;
+  
+   
   
   } 
 .js{
@@ -293,8 +290,8 @@ nav img{
   background-color: yellow !important;
     color: black;  
     width: 0;   
-    // animation: js  1.5s  ease-in-out forwards;
-    z-index: 1;
+
+  
   
   }
 
@@ -302,17 +299,23 @@ nav img{
   .css{
     background-color: blue !important;
     width: 0;
-    // animation: css  1.5s  ease-in-out forwards;
-    z-index: 1;
+  
+ 
   }
   .php{
     background-color: purple !important;
     width: 0;
-    // animation: php  1.5s  ease-in-out forwards;
-    z-index: 1;
+  
+ 
   
   }
-
+  .symfony{
+    background-color: black !important;   
+    width: 0;   
+   
+   
+  
+  }
 
 
 
@@ -322,7 +325,7 @@ nav img{
       width: 0;
     }
     to {
-      width: 100%;
+      width: 80%;
     }
   } 
 
@@ -332,7 +335,7 @@ nav img{
       width: 0;
     }
     to {
-      width: 90%;
+      width: 80%;
     }
   } 
 
@@ -343,7 +346,7 @@ nav img{
       width: 0;
     }
     to {
-      width: 60%;
+      width: 70%;
     }
   }
   
@@ -352,9 +355,27 @@ nav img{
       width: 0;
     }
     to {
-      width: 50%;
+      width: 60%;
     }
   }
+  @keyframes symfony{
+    from {
+      width: 0;
+    }
+    to {
+      width: 60%;
+    }
+  }
+
+  @keyframes mysql {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  } 
+
   
 
 .hidimg span{
