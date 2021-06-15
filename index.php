@@ -159,7 +159,6 @@
           </div>
         </div>
       </div>
-    
       <div class=" col-sm-12 col-md-8 col-xl-2">
         <div class="hidimg">
           <img src="/portfolio/images/CSS3_logo_and_wordmark.svg">
@@ -168,25 +167,26 @@
               <img src="/portfolio/images/bootstrap.jpg"></br>
               <img src="/portfolio/images/materialize.png"></br>
               <img src="/portfolio/images/cody.jpg">
-          </span>
+          </span></div>
         </div>
-      </div>
      
-      <div class="progress">
-        <div class="progress-bar progress-bar-success progress-bar-striped active css" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-          <span class="sr-only">90% </span>
-        </div>
-      </div>
-    </div>
+  
 
-    <div class=" col-sm-12 col-md-8 col-xl-2 json ">
+     <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped active css" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+        <span class="sr-only">90% </span>
+      </div>
+     </div>
+     </div>
+
+     <div class=" col-sm-12 col-md-8 col-xl-2 json ">
       <img src="/portfolio/images/js-logo.png">
       <div class="progress">
         <div class="progress-bar progress-bar-success progress-bar-striped active js" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
           <span class="sr-only">60%</span>
         </div>
       </div>
-    </div>
+     </div>
 
     <div class=" col-sm-12 col-md-8 col-xl-2">
       <img src="/portfolio/images/php8.png">
@@ -196,7 +196,6 @@
         </div>
       </div>
     </div>
-
     <div class=" col-sm-12 col-md-8 col-xl-2">
       <img src="/portfolio/images/mysql.png">
       <div class="progress">
@@ -217,7 +216,7 @@
     </div>
 
 
-    </div>
+  </div>
 
   </section>
   <h1>Contact</h1>
