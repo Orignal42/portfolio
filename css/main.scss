@@ -133,7 +133,7 @@ button{
 display: flex;
 flex-flow: row;
 justify-content: center;
-align-items: center;
+
         
 }
 
@@ -155,7 +155,7 @@ nav img{
 }
 .email{
   display: flex;
-  flex-flow: row;
+  justify-content: space-between;
 
 }
 
@@ -282,83 +282,40 @@ nav img{
 
 
   .html {
+    background-color:orange !important;
     width: 0;
-    animation: html 1.5s  ease-in-out forwards;
-    .title {
-     
-        opacity: 0;
-        animation: show 0.35s forwards ease-in-out 0.5s;
-      }
+    // animation: html 1.5s  ease-in-out forwards;
+   
   
   } 
-
 .js{
-    background-color: yellow !important;
-    color: black;
    
-    width: 0;
-   
-    animation: js  1.5s  ease-in-out forwards;
-    .title {       
-        opacity: 0;
-        animation: show 0.35s forwards ease-in-out 0.5s;
-      }
+  background-color: yellow !important;
+    color: black;  
+    width: 0;   
+    // animation: js  1.5s  ease-in-out forwards;
+  
   
   }
 
 
   .css{
     background-color: blue !important;
-   
     width: 0;
-   
-    animation: css  1.5s  ease-in-out forwards;
-    .title {       
-        opacity: 0;
-        animation: show 0.35s forwards ease-in-out 0.5s;
-      }
-  
+    // animation: css  1.5s  ease-in-out forwards;
+ 
   }
   .php{
     background-color: purple !important;
-   
     width: 0;
-   
-    animation: php  1.5s  ease-in-out forwards;
-    .title {       
-        opacity: 0;
-        animation: show 0.35s forwards ease-in-out 0.5s;
-      }
-  
-  }
-  .symfony{
-    background-color: black !important;
-   
-    width: 0;
-   
-    animation: symfony  1.5s  ease-in-out forwards;
-    .title {       
-        opacity: 0;
-        animation: show 0.35s forwards ease-in-out 0.5s;
-      }
-  
-  }
-  .imgphp span {
-    visibility: hidden;
-}
+    // animation: php  1.5s  ease-in-out forwards;
  
-.imgphp :hover + span {
-    visibility: visible;
-}
+  
+  }
 
 
-.imgcss span {
-  visibility: hidden;
-}
 
-.imgcss :hover + span {
-  visibility: visible;
-}
+
 
   @keyframes html {
     from {
@@ -398,18 +355,21 @@ nav img{
       width: 50%;
     }
   }
-  @keyframes symfony{
-    from {
-      width: 0;
-    }
-    to {
-      width: 30%;
-    }
-  }
   
 
+.hidimg span{
+  display: none;
+  }
 
+
+.hidimg img:hover +span {
+  display: block;
  
+}
+
+
+
+
     
 
   

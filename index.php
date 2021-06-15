@@ -33,7 +33,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
-       
+
             <li class="nav-item">
               <a class="nav-link" href="#competences">Compétences</a>
             </li>
@@ -107,17 +107,7 @@
 
     <div class="carousel" data-flickity='{ "wrapAround": true }'>
 
-      <div class="carousel-cell">
-        <div class="card col-md-12 col-xl-12">
-          <h5 class="card-title">ZOO</h5>
-          <div class="card-body">
-            <img src="./images/zoo.png">
-            <div class="card-content">
-              <p>Projet pour apprendre le POO PHP</p>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
 
       <div class="carousel-cell">
@@ -169,19 +159,17 @@
         </div>
       </div>
 
-
       <div class="carousel-cell">
-        <div class="card col-sd-12 col-md-8 col-xl-12">
-          <h5 class="card-title">The Mountains</h5>
+        <div class="card col-md-12 col-xl-12">
+          <h5 class="card-title">Compar'operator</h5>
           <div class="card-body">
-            <img src="images/the mountain.png">
+            <img src="images\compar'operator.png">
             <div class="card-content">
-              <p>Challenge en html, css et bootstrap.</p>
+              <p>Projet pour apprendre symfony</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
 
   </section>
@@ -198,10 +186,16 @@
         </div>
       </div>
       <div class=" col-sm-12 col-md-8 col-xl-2">
+        <div class="hidimg">
+        
+          <img src="/portfolio/images/CSS3_logo_and_wordmark.svg">
 
-        <img src="/portfolio/images/CSS3_logo_and_wordmark.svg">
-
-
+          <span>
+          <div class="row">           
+          <img src="/portfolio/images/bootstrap.jpg" ></br>
+            <img src="/portfolio/images/materialize.png"></br>
+            <img src="/portfolio/images/cody.jpg"></span>
+        </div></div>
         <div class="progress">
           <div class="progress-bar progress-bar-success progress-bar-striped active css" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
             <span class="sr-only">90% </span>
@@ -209,7 +203,7 @@
         </div>
       </div>
 
-      <div class=" col-sm-12 col-md-8 col-xl-2">
+      <div class=" col-sm-12 col-md-8 col-xl-2 json ">
         <img src="/portfolio/images/js-logo.png">
         <div class="progress">
           <div class="progress-bar progress-bar-success progress-bar-striped active js" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
@@ -219,60 +213,59 @@
       </div>
 
       <div class=" col-sm-12 col-md-8 col-xl-2">
-        <img src="/portfolio/images/php8.png">
-
-        <div class="progress">
-          <div class=" progress-bar progress-bar-success progress-bar-striped active php" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-            <span class="sr-only">50%</span>
+        <div class=hidimg>
+          <img src="/portfolio/images/php8.png">
+          <span><img src="/portfolio/images/symfony.svg"></span>
           </div>
-        </div>
+          <div class="progress">
+            <div class=" progress-bar progress-bar-success progress-bar-striped active php" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+              <span class="sr-only">50%</span>
+            </div>
+          </div>
+       
       </div>
 
 
-      <div class=" col-sm-12 col-md-8 col-xl-2">
-        <img src="\portfolio\images\symfony.svg">
-        <div class="progress">
-          <div class="progress-bar progress-bar-success progress-bar-striped active symfony " role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-            <span class="sr-only">30% </span>
-          </div>
-        </div>
-      </div>
+   
     </div>
 
   </section>
   <h1>Contact</h1>
   <section id="contact">
 
-  
-  <div class="row">
-          <div class="col-sm-12 col-md-8 col-xl-4 mail ">        
-            <p><h1>&#x1F4E7;</h1>romain.barriquand@laposte.net</p>
-          </div>
-          <div class="col-sm-12 col-md-8 col-xl-4 mail ">
-              <p><h1>&#x260E;</h1> 06.89.88.85.71</p>
-          </div>
-          <div class="col-sm-12 col-md-8 col-xl-4 mail ">
-            <img src="/portfolio/images/github.png" width="10%" height="auto">
-            <a href="https://github.com/">
-            <p>lien vers mon github</p></a>
-          </div>
-   </div>
 
-  
-     
-      <form method="post" action="">
-      <div id="email">
+    <div class="row">
       <div class="col-sm-12 col-md-8 col-xl-4 mail ">
-        <label>Email</label>
-        <input type="email" name="email" required><br>
+        <p>
+        <h1>&#x1F4E7;</h1>romain.barriquand@laposte.net</p>
       </div>
       <div class="col-sm-12 col-md-8 col-xl-4 mail ">
-        <label>Message</label>
-        <textarea name="message" required></textarea><br>
-        <input type="submit">
+        <p>
+        <h1>&#x260E;</h1> 06.89.88.85.71</p>
       </div>
+      <div class="col-sm-12 col-md-8 col-xl-4 mail ">
+        <img src="/portfolio/images/github.png" width="10%" height="auto">
+        <a href="https://github.com/">
+          <p>lien vers mon github</p>
+        </a>
       </div>
-      </form>
+    </div>
+
+
+
+    <form method="post" action="">
+      <div class="row email">
+        <div class="col-sm-12 col-md-8 col-xl-4 mail ">
+          <label>Email</label>
+          <input type="email" name="email" required><br>
+        </div>
+        <div class="col-sm-12 col-md-8 col-xl-4 mail ">
+          <label>Message</label>
+          <textarea name="message" required></textarea><br>
+          <input type="submit">
+        </div>
+      </div>
+    </form>
 
 
 
@@ -297,8 +290,9 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+    <script src="/portfolio/js/main.js"></script>
 
 </body>
 
