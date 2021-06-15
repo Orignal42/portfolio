@@ -83,14 +83,7 @@ h2{
 
 }
 
-#portfolio .card{
-display: flex;
-text-align: center;
 
-}
-#portfolio .card .instageek{
-  background-image: url("/portfolio/images/instageeks.png");
-}
 
 #competences{
 margin-top: 2%;
@@ -116,20 +109,46 @@ button{
 
 
 
-.card-body{
+#portfolio .card {
   display: flex;
   flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-.card-body img{
-  width: 30%;
-  height: 5rem;
+  width: 80vh;
+  height: 50vh;
+  text-align: center;
+
+ color: black;
+  
 }
 
-#competences  .col-2{
-    margin: 1rem;
+
+.insta{
+
+  background-image: url("/portfolio/images/instageeks.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  color: white;
 }
+
+.compar{
+  background-image: url("/portfolio/images/compar'operator.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+
+}
+.morpion{
+  background-image: url("/portfolio/images/morpion.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+
+}
+
+
 
 
 
@@ -290,31 +309,20 @@ nav img{
   background-color: yellow !important;
     color: black;  
     width: 0;   
-
-  
-  
-  }
+    }
 
 
   .css{
     background-color: blue !important;
     width: 0;
-  
- 
   }
   .php{
     background-color: purple !important;
     width: 0;
-  
- 
-  
   }
   .symfony{
     background-color: black !important;   
     width: 0;   
-   
-   
-  
   }
 
 
@@ -386,6 +394,13 @@ nav img{
 .hidimg img:hover +span {
   display: block;
  
+}
+
+.centre{
+
+  display: flex;
+  justify-content: center;
+
 }
 
 

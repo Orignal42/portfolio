@@ -54,9 +54,9 @@
     </br>
 
     <h1>Romain Barriquand</h1>
-    <h4>Développeur web/ web mobile junior</h4>
-    <p> Romain Barriquand, Web dev/webmobil junior en formation, j'ai commencé dans la maintenance puis j'ai decidé de me reconvertir au bout
-      de 15 ans en webdev.</p>
+    <h4>Développeur web et web mobile junior</h4>
+    <p> Romain Barriquand, Web dev et web mobile junior en formation, j'ai commencé dans la maintenance puis j'ai decidé de me reconvertir au bout
+      de 15 ans en web developpeur.</p>
   </section>
 
   <section id="cv">
@@ -90,7 +90,7 @@
                   </li>
                   <li class="event" data-date="2021">
 
-                    <p>Formation à Simplon Roanne pour devenir Dev web/web mobil junior.</p>
+                    <p>Formation à Simplon Roanne pour devenir web développeur et développeur mobile junior.</p>
                   </li>
                   </li>
                 </ul>
@@ -104,51 +104,50 @@
 
   <section id="portfolio">
     <H1>Portfolio</H1>
-
     <div class="carousel" data-flickity='{ "wrapAround": true }'>
-
-     <div class="carousel-cell">
-        <div class="card col-md-12 col-xl-12 instageek">
-          <h5 class="card-title">Instageek</h5>
-          <div class="card-body">
-            
-            <div class="card-content">
+      <div class="carousel-cell">
+        <div class="card col-md-12 col-xl-12 ">
+          <div class="insta">
+            <h5 class="card-title">Instageek</h5>
+            <div class="card-body">
               <p>Petit challenge des 2 mois</p>
             </div>
           </div>
         </div>
       </div>
-
-     
-
-  
-
       <div class="carousel-cell">
+
         <div class="card col-md-12 col-xl-12">
-          <h5 class="card-title">Compar'operator</h5>
-          <div class="card-body">
-            <img src="images\compar'operator.png">
-            <div class="card-content">
-              <p>Pour apprendre la POO PHP</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <div class="card col-md-12 col-xl-12">
-          <h5 class="card-title">Morpion</h5>
-          <div class="card-body">
-            <img src="images\morpion.png">
-            <div class="card-content">
-              <p>Pour apprendre la POO JS</p>
+          <div class="compar">
+            <h5 class="card-title">Compar'operator</h5>
+            <div class="card-body">
+
+              <div class="card-content">
+                <p>Pour apprendre la POO PHP</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
+      <div class="carousel-cell">
+        <div class="card">
 
+          <div class="card col-md-12 col-xl-12">
+            <div class="morpion">
+              <h5>Morpion</h5>
+              <div class="card-body">
+                <div class="card-content">
+                  <p>Pour apprendre la POO JS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  </div>
+
   <section id="competences">
     <h1>Mes compétences</h1>
     <div class="row wrap">
@@ -160,69 +159,64 @@
           </div>
         </div>
       </div>
+    
       <div class=" col-sm-12 col-md-8 col-xl-2">
         <div class="hidimg">
-        
           <img src="/portfolio/images/CSS3_logo_and_wordmark.svg">
-
           <span>
-          <div class="row">           
-          <img src="/portfolio/images/bootstrap.jpg" ></br>
-            <img src="/portfolio/images/materialize.png"></br>
-            <img src="/portfolio/images/cody.jpg"></span>
-        </div></div>
-        <div class="progress">
-          <div class="progress-bar progress-bar-success progress-bar-striped active css" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-            <span class="sr-only">90% </span>
-          </div>
+            <div class="row">
+              <img src="/portfolio/images/bootstrap.jpg"></br>
+              <img src="/portfolio/images/materialize.png"></br>
+              <img src="/portfolio/images/cody.jpg">
+          </span>
+        </div>
+      </div>
+     
+      <div class="progress">
+        <div class="progress-bar progress-bar-success progress-bar-striped active css" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+          <span class="sr-only">90% </span>
+        </div>
+      </div>
+    </div>
+
+    <div class=" col-sm-12 col-md-8 col-xl-2 json ">
+      <img src="/portfolio/images/js-logo.png">
+      <div class="progress">
+        <div class="progress-bar progress-bar-success progress-bar-striped active js" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+          <span class="sr-only">60%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class=" col-sm-12 col-md-8 col-xl-2">
+      <img src="/portfolio/images/php8.png">
+      <div class="progress">
+        <div class=" progress-bar progress-bar-success progress-bar-striped active php" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+          <span class="sr-only">50%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class=" col-sm-12 col-md-8 col-xl-2">
+      <img src="/portfolio/images/mysql.png">
+      <div class="progress">
+        <div class=" progress-bar progress-bar-success progress-bar-striped active mysql" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+          <span class="sr-only">50%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class=" col-sm-12 col-md-8 col-xl-2">
+      <img src="\portfolio\images\symfony.png">
+      <div class="progress">
+        <div class=" progress-bar progress-bar-success progress-bar-striped active symfony" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+          <span class="sr-only">50%</span>
         </div>
       </div>
 
-      <div class=" col-sm-12 col-md-8 col-xl-2 json ">
-        <img src="/portfolio/images/js-logo.png">
-        <div class="progress">
-          <div class="progress-bar progress-bar-success progress-bar-striped active js" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-            <span class="sr-only">60%</span>
-          </div>
-        </div>
-      </div>
+    </div>
 
-      <div class=" col-sm-12 col-md-8 col-xl-2">
-        
-          <img src="/portfolio/images/php8.png">
-        
-          <div class="progress">
-            <div class=" progress-bar progress-bar-success progress-bar-striped active php" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-              <span class="sr-only">50%</span>
-            </div>
-          </div>
-       
-      </div>
 
-      <div class=" col-sm-12 col-md-8 col-xl-2">
-        
-          <img src="/portfolio/images\mysql_PNG9.png.crdownload">
-          
-          <div class="progress">
-            <div class=" progress-bar progress-bar-success progress-bar-striped active mysql" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-              <span class="sr-only">50%</span>
-            </div>
-          </div>
-       
-      </div>
-      <div class=" col-sm-12 col-md-8 col-xl-2">
-        
-          <img src="/portfolio/images/symfony.svg">
-       
-          <div class="progress">
-            <div class=" progress-bar progress-bar-success progress-bar-striped active symfony" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-              <span class="sr-only">50%</span>
-            </div>
-          </div>
-       
-      </div>
-
-   
     </div>
 
   </section>
@@ -242,7 +236,7 @@
       <div class="col-sm-12 col-md-8 col-xl-4 mail ">
         <img src="/portfolio/images/github.png" width="10%" height="auto">
         <a href="https://github.com/">
-        <p>  lien vers mon github</p>
+          <p> lien vers mon github</p>
         </a>
       </div>
     </div>
@@ -271,7 +265,7 @@
       if ($position_arobase === false)
         echo '<p>Votre email doit comporter un arobase.</p>';
       else {
-        $retour = mail('romain.barriquand@laposte.net', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
+        $retour = mail('rbarriquand@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
         if ($retour)
           echo '<p>Votre message a été envoyé.</p>';
         else
