@@ -135,29 +135,9 @@
         </div>
       </div>
 
-      <div class="carousel-cell ">
-        <div class="card col-md-12 col-xl-12">
-          <h5 class="card-title">Minichat</h5>
-          <div class="card-body">
-            <img src="images/minichat.png">
-            <div class="card-content">
-              <p>Projet pour apprendre le php et le sql</p>
-            </div>
-          </div>
-        </div>
-      </div>
+     
 
-      <div class="carousel-cell">
-        <div class="card col-sd-12 col-md-8 col-xl-12">
-          <h5 class="card-title">Combat</h5>
-          <div class="card-body">
-            <img src="images/mini jeu combat.png">
-            <div class="card-content">
-              <p>Pour apprendre la poo php</p>
-            </div>
-          </div>
-        </div>
-      </div>
+  
 
       <div class="carousel-cell">
         <div class="card col-md-12 col-xl-12">
@@ -165,7 +145,18 @@
           <div class="card-body">
             <img src="images\compar'operator.png">
             <div class="card-content">
-              <p>Projet pour apprendre symfony</p>
+              <p>Pour apprendre la POO PHP</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <div class="card col-md-12 col-xl-12">
+          <h5 class="card-title">Morpion</h5>
+          <div class="card-body">
+            <img src="images\morpion.png">
+            <div class="card-content">
+              <p>Pour apprendre la POO JS</p>
             </div>
           </div>
         </div>

@@ -285,7 +285,7 @@ nav img{
     background-color:orange !important;
     width: 0;
     // animation: html 1.5s  ease-in-out forwards;
-   
+    z-index: 1;
   
   } 
 .js{
@@ -294,7 +294,7 @@ nav img{
     color: black;  
     width: 0;   
     // animation: js  1.5s  ease-in-out forwards;
-  
+    z-index: 1;
   
   }
 
@@ -303,13 +303,13 @@ nav img{
     background-color: blue !important;
     width: 0;
     // animation: css  1.5s  ease-in-out forwards;
- 
+    z-index: 1;
   }
   .php{
     background-color: purple !important;
     width: 0;
     // animation: php  1.5s  ease-in-out forwards;
- 
+    z-index: 1;
   
   }
 
