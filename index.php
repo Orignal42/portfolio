@@ -16,6 +16,13 @@
 <body>
 
   <section id="header">
+    <?php if (isset($_GET["message"])) : ?>
+      <div style="padding:10px;background:green;color:#fff;">
+        <?= $_GET["message"] ?>
+      </div>
+    <?php endif; ?>
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
       <div class="container-fluid">
         <img src="/portfolio/images/facebook_profile_image.png">
@@ -152,103 +159,91 @@
     <h1>Mes compétences</h1>
     <div class="row wrap">
       <div class=" col-sm-12 col-md-8 col-xl-2">
-        <img src="/portfolio/images/HTML5_Logo_512.png">
+        <div class="images">
+          <img src="/portfolio/images/HTML5_Logo_512.png">
+        </div>
         <div class="progress">
           <div class="progress-bar progress-bar-success progress-bar-striped active html" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
             <span class="sr-only">80% </span>
           </div>
         </div>
       </div>
-      <div class=" col-sm-12 col-md-8 col-xl-2">
+      <div class=" col-sm-12 col-md-8 col-xl-2 centre">
+
         <div class="hidimg">
-          <img src="/portfolio/images/CSS3_logo_and_wordmark.svg">
-          <span>
-            <div class="row">
-              <img src="/portfolio/images/bootstrap.jpg"></br>
-              <img src="/portfolio/images/materialize.png"></br>
-              <img src="/portfolio/images/cody.jpg">
-          </span></div>
+          <div class="images">
+            <img src="/portfolio/images/CSS3_logo_and_wordmark.svg">
+            <span>
+              <!-- <div id="logos">
+                <img src="/portfolio/images/bootstrap.jpg"></br>
+                <img src="/portfolio/images/materialize.png"></br>
+                <img src="/portfolio/images/cody.jpg">
+              </div> -->
+          </div>
+          </span>
         </div>
-     
-  
-
-     <div class="progress">
-      <div class="progress-bar progress-bar-success progress-bar-striped active css" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-        <span class="sr-only">90% </span>
-      </div>
-     </div>
-     </div>
-
-     <div class=" col-sm-12 col-md-8 col-xl-2 json ">
-      <img src="/portfolio/images/js-logo.png">
-      <div class="progress">
-        <div class="progress-bar progress-bar-success progress-bar-striped active js" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-          <span class="sr-only">60%</span>
+        <div class="progress">
+          <div class="progress-bar progress-bar-success progress-bar-striped active css" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+            <span class="sr-only">80% </span>
+          </div>
         </div>
       </div>
-     </div>
 
-    <div class=" col-sm-12 col-md-8 col-xl-2">
-      <img src="/portfolio/images/php8.png">
-      <div class="progress">
-        <div class=" progress-bar progress-bar-success progress-bar-striped active php" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-          <span class="sr-only">50%</span>
+      <div class=" col-sm-12 col-md-8 col-xl-2 json ">
+        <div class="images">
+          <img src="/portfolio/images/js-logo.png">
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-success progress-bar-striped active js" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+            <span class="sr-only">60%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col-sm-12 col-md-8 col-xl-2">
+        <div class="images">
+          <img src="/portfolio/images/php8.png">
+        </div>
+        <div class="progress">
+          <div class=" progress-bar progress-bar-success progress-bar-striped active php" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+            <span class="sr-only">50%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col-sm-12 col-md-8 col-xl-2">
+        <div class="images">
+          <img src="/portfolio/images/mysql.png">
+        </div>
+        <div class="progress">
+          <div class=" progress-bar progress-bar-success progress-bar-striped active mysql" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+            <span class="sr-only">50%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col-sm-12 col-md-8 col-xl-2">
+        <div class="images">
+          <img src="\portfolio\images\symfony.png">
+        </div>
+        <div class="progress">
+          <div class=" progress-bar progress-bar-success progress-bar-striped active symfony" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+            <span class="sr-only">50%</span>
+          </div>
         </div>
       </div>
     </div>
-    <div class=" col-sm-12 col-md-8 col-xl-2">
-      <img src="/portfolio/images/mysql.png">
-      <div class="progress">
-        <div class=" progress-bar progress-bar-success progress-bar-striped active mysql" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-          <span class="sr-only">50%</span>
-        </div>
-      </div>
-    </div>
-
-    <div class=" col-sm-12 col-md-8 col-xl-2">
-      <img src="\portfolio\images\symfony.png">
-      <div class="progress">
-        <div class=" progress-bar progress-bar-success progress-bar-striped active symfony" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-          <span class="sr-only">50%</span>
-        </div>
-      </div>
-
-    </div>
-
-
-  </div>
-
   </section>
+
   <h1>Contact</h1>
   <section id="contact">
-
-
-    <div class="row">
-      <div class="col-sm-12 col-md-8 col-xl-4 mail ">
-        <p>
-        <h1>&#x1F4E7;</h1>romain.barriquand@laposte.net</p>
-      </div>
-      <div class="col-sm-12 col-md-8 col-xl-4 mail ">
-        <p>
-        <h1>&#x260E;</h1> 06.89.88.85.71</p>
-      </div>
-      <div class="col-sm-12 col-md-8 col-xl-4 mail ">
-        <img src="/portfolio/images/github.png" width="10%" height="auto">
-        <a href="https://github.com/">
-          <p> lien vers mon github</p>
-        </a>
-      </div>
-    </div>
-
-
-
-    <form method="post" action="">
+    <form method="post" action="/portfolio/php/main.php">
       <div class="row email">
-        <div class="col-sm-12 col-md-8 col-xl-4 mail ">
+        <div class="col-sm-12 col-md-8 col-xl-4">
           <label>Email</label>
           <input type="email" name="email" required><br>
         </div>
-        <div class="col-sm-12 col-md-8 col-xl-4 mail ">
+        <div class="col-sm-12 col-md-8 col-xl-4">
           <label>Message</label>
           <textarea name="message" required></textarea><br>
           <input type="submit">
@@ -258,20 +253,15 @@
 
 
 
-    <?php
-    if (isset($_POST['message'])) {
-      $position_arobase = strpos($_POST['email'], '@');
-      if ($position_arobase === false)
-        echo '<p>Votre email doit comporter un arobase.</p>';
-      else {
-        $retour = mail('rbarriquand@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
-        if ($retour)
-          echo '<p>Votre message a été envoyé.</p>';
-        else
-          echo '<p>Erreur.</p>';
-      }
-    }
-    ?>
+<section id="footer">
+        <div class="text">
+       <h3>&#x1F4E7;</h3> <p>romain.barriquand@laposte.net</p></div>
+       <div class="text">
+        <h3>&#x260E;</h3><p> 06.89.88.85.71</p>  </div>
+        <a href="https://github.com/"><img src="/portfolio/images/git.png" width="50vh"></a>
+        <a href="https://www.linkedin.com/feed/"> <img src="/portfolio/images/link.png" width="50vh"></a>
+   
+   </section>
 
 
 

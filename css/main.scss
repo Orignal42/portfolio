@@ -1,3 +1,11 @@
+@media screen and (min-width: 900px) {
+  .navbar img{
+    width: 10vh;
+    
+    }
+}
+
+
 #header{
    position:fixed;
     top: 0;
@@ -16,18 +24,26 @@
 
     margin-top: 2rem;
     text-align: center;
+    
 }
 .photo img{
-    border: darkgrey 1rem solid;
+    border: darkgrey 1vh solid;
     border-radius: 50%;
-    width: 20%;
+    width: 50vh;
     height: auto;
     margin-top: 5%;
+    max-width: 100%;
 }
 .navbar{
     background-color:darkgray !important;
 
 }
+
+.navbar img{
+width: 10vh;
+
+}
+
 
 
 
@@ -169,6 +185,7 @@ nav img{
   align-items: center;
   text-align: center;
 }
+
 .email{
   display: flex;
   justify-content: space-between;
@@ -363,7 +380,7 @@ nav img{
       width: 0;
     }
     to {
-      width: 60%;
+      width: 50%;
     }
   }
   @keyframes symfony{
@@ -371,7 +388,7 @@ nav img{
       width: 0;
     }
     to {
-      width: 60%;
+      width: 50%;
     }
   }
 
@@ -380,7 +397,7 @@ nav img{
       width: 0;
     }
     to {
-      width: 80%;
+      width: 50%;
     }
   } 
 
@@ -395,6 +412,39 @@ nav img{
   display: block;
  
 }
+#logos img{
+  width: 50%;
+  height: auto;
+}
+
+#logos{
+display: flex;
+flex-flow: column;
+justify-content: center;
+
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+#footer{
+padding-top: 5%;
+  width: 100%;
+  height: auto;
+ background-color: darkgrey;
+color:black;
+margin-top: 5vh;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+align-content: center;
+}
+
+
 
 
 
