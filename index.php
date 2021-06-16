@@ -81,18 +81,18 @@
 
                   <li class="event" data-date="2006 - 2010">
 
-                    <p>Obtention d'un DUT génie industriel et maintenance et différentes missions intérims en tant que mécanicien monteur</p>
+                    <p>Obtention d'un DUT génie industriel et maintenance et différentes missions intérims en tant que mécanicien monteur.</p>
                   </li>
                   <li class="event" data-date="2009- 2012">
 
-                    <p>CDI à Europe géothermie en tant que technicien industriel </p>
+                    <p>CDI à Europe géothermie en tant que technicien industriel. </p>
                   </li>
                   <li class="event" data-date="2013-2015">
 
-                    <p>CDI pour la société Rlegrand en tant que technicien en signalisation ferrovaire.</p>
+                    <p>CDI pour la société r.Legrand en tant que technicien en signalisation ferrovaire.</p>
                   <li class="event" data-date="2015-2021">
 
-                    <p>Différentes missions en tant que technicien SAV et électricien industriel et batiment</p>
+                    <p>Différentes missions en tant que technicien SAV et électricien industriel et batiment.</p>
                   </li>
                   </li>
                   <li class="event" data-date="2021">
@@ -237,29 +237,34 @@
 
   <h1>Contact</h1>
   <section id="contact">
+ 
     <form method="post" action="/portfolio/php/main.php">
-      <div class="row email">
-        <div class="col-sm-12 col-md-8 col-xl-4">
-          <label>Email</label>
-          <input type="email" name="email" required><br>
+     
+        <div class="col-sm-12 col-md-8 col-xl-6">
+          <label>Email:</label>
+          <input class="champ" type="email" name="email" required><br>
         </div>
-        <div class="col-sm-12 col-md-8 col-xl-4">
-          <label>Message</label>
-          <textarea name="message" required></textarea><br>
+       
+        <div class="col-sm-12 col-md-8 col-xl-6">
+          <label>Message:</label>
+          <textarea class="champ" name="message" required></textarea><br>
           <input type="submit">
         </div>
-      </div>
+    
     </form>
 
-
+    </section>
 
 <section id="footer">
-        <div class="text">
+  <div class="col-1"></div>
+        <div class="col-sm-12 col-md-4 col-xl-2 email">
        <h3>&#x1F4E7;</h3> <p>romain.barriquand@laposte.net</p></div>
-       <div class="text">
+       <div class="col-sm-12 col-md-4 col-xl-2 phone">
         <h3>&#x260E;</h3><p> 06.89.88.85.71</p>  </div>
-        <a href="https://github.com/"><img src="/portfolio/images/git.png" width="50vh"></a>
-        <a href="https://www.linkedin.com/feed/"> <img src="/portfolio/images/link.png" width="50vh"></a>
+        <div class="col-sm-12 col-md-4 col-xl-2">
+        <a href="https://github.com/"><img src="/portfolio/images/git.png" width="50vh"></a> </div>
+        <div class="col-sm-12 col-md-4 col-xl-2">
+        <a href="https://www.linkedin.com/feed/"> <img src="/portfolio/images/link.png" width="50vh"></a> </div>
    
    </section>
 

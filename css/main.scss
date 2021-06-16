@@ -172,25 +172,9 @@ button{
 .container{
     background-color: grey;
 }
-nav img{
-    width: 5%;
-    height: 5%;
-}
 
 
-#contact{
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.email{
-  display: flex;
-  justify-content: space-between;
-
-}
 
  
 
@@ -403,15 +387,7 @@ nav img{
 
   
 
-.hidimg span{
-  display: none;
-  }
 
-
-.hidimg img:hover +span {
-  display: block;
- 
-}
 #logos img{
   width: 50%;
   height: auto;
@@ -430,27 +406,59 @@ justify-content: center;
   align-content: center;
   
 }
+#contact{
+display: flex;
+justify-content: center;
+
+}
+
+.champ{
+  vertical-align: middle;
+  margin: 1%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50vh;
+  }
+
 
 #footer{
 padding-top: 5%;
   width: 100%;
-  height: auto;
+  height: 20vh;
  background-color: darkgrey;
 color:black;
 margin-top: 5vh;
 display: flex;
 flex-flow: row wrap;
-justify-content: space-around;
+justify-content: space-between;
 align-content: center;
+}
+
+.phone p{
+  display: none;
+  transition: 2s
+ }
+
+.phone h3:hover + p {
+
+  display:block
+  
+}
+
+.email p{
+  display: none;
+}
+
+.email h3:hover + p {
+  display:block
 }
 
 
 
 
 
-
-
-    
 
   
 
