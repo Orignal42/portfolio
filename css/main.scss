@@ -1,10 +1,3 @@
-@media screen and (min-width: 900px) {
-  .navbar img{
-    width: 10vh;
-    
-    }
-}
-
 
 #header{
    position:fixed;
@@ -27,20 +20,21 @@
     
 }
 .photo img{
-    border: darkgrey 1vh solid;
+    border: darkgrey 0.3rem solid;
     border-radius: 50%;
-    width: 50vh;
-    height: auto;
     margin-top: 5%;
-    max-width: 100%;
+   width:20%;
+
 }
 .navbar{
     background-color:darkgray !important;
+    text-align: center;
+    vertical-align: middle;
 
 }
 
 .navbar img{
-width: 10vh;
+width: 2rem;
 
 }
 
@@ -68,7 +62,6 @@ margin: 5%;
   width: 40%;
   height: auto;
   margin-right: 1rem;
-
   border-radius: 5px;
   counter-increment: carousel-cell;
 }
@@ -99,7 +92,10 @@ h2{
 
 }
 
+#cv {
+  text-align: center;
 
+}
 
 #competences{
 margin-top: 2%;
@@ -122,7 +118,20 @@ width: 100%;
 button{
     align-content: center;
 }
+.col-sm-12{
+  text-align: center;
+}
 
+#portfolio h5{
+  text-decoration: none;
+color: black;
+}
+
+#portfolio h5:hover{
+  text-decoration: underline;
+  color: blue;
+  
+}
 
 
 #portfolio .card {
@@ -139,16 +148,17 @@ button{
 
 .insta{
 
-  background-image: url("/portfolio/images/instageeks.png");
+  background-image: url("../images/instageeks.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  color: white;
+
+
 }
 
 .compar{
-  background-image: url("/portfolio/images/compar'operator.png");
+  background-image: url("../images/compar'operator.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -156,7 +166,7 @@ button{
 
 }
 .morpion{
-  background-image: url("/portfolio/images/morpion.png");
+  background-image: url("../images/morpion.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -165,20 +175,9 @@ button{
 }
 
 
-
-
-
-
 .container{
     background-color: grey;
 }
-
-
-
-
- 
-
-
   .timeline {
       border-left: 3px solid #727cf5;
       border-bottom-right-radius: 4px;
@@ -384,10 +383,6 @@ button{
       width: 50%;
     }
   } 
-
-  
-
-
 #logos img{
   width: 50%;
   height: auto;
@@ -424,40 +419,30 @@ justify-content: center;
 
 
 #footer{
-padding-top: 5%;
-  width: 100%;
-  height: 20vh;
- background-color: darkgrey;
+width: 100%;
+height: 20vh;
+background-color: darkgrey;
 color:black;
-margin-top: 5vh;
+margin-top: 1%;
 display: flex;
 flex-flow: row wrap;
 justify-content: space-between;
 align-content: center;
 }
 
-.phone p{
-  display: none;
-  transition: 2s
- }
+#footer .col-sm-12{
+  margin: 1%;
+} 
 
-.phone h3:hover + p {
-
-  display:block
-  
+#footer span{
+  text-decoration: none;
+color: black;
 }
 
-.email p{
-  display: none;
+#footer span:hover{
+  text-decoration: underline;
+  color: blue;
 }
-
-.email h3:hover + p {
-  display:block
-}
-
-
-
-
 
 
   
